@@ -1,0 +1,65 @@
+.about .content h3 {
+    font-weight: 700;
+    font-size: 28px;
+    margin-top: 2.5rem;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .about .content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .about .content ul li {
+    padding: 0 0 8px 26px;
+    position: relative;
+    margin-top: 1rem;
+  }
+  
+  .about .content ul i {
+    position: absolute;
+    font-size: 20px;
+    left: 0;
+    top: -3px;
+    color: #ffc451;
+  }
+  
+  .about .content p:last-child {
+    margin-bottom: 0;
+  }
+
+
+  
+
+  .clients {
+    padding-top: 20px;
+    cursor: pointer;
+  }
+  
+  .clients .swiper-slide img {
+    opacity: 0.5;
+    transition: 0.3s;
+    filter: grayscale(100);
+  }
+  
+  .clients .swiper-slide img:hover {
+    filter: none;
+    opacity: 1;
+  }
+  
+  .clients .swiper-pagination {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .clients .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    background-color: #fff;
+    opacity: 1;
+    background-color: #ddd;
+  }
+  
+  .clients .swiper-pagination .swiper-pagination-bullet-active {
+    background-color: #ffc451;
+  }

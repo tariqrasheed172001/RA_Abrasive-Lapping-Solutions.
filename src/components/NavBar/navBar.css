@@ -1,0 +1,59 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 12px;
+    position: relative;
+  }
+
+  #header .logo {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    line-height: 1;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+  }
+  
+  .menu-icon{
+      font-size: 30px;
+  }
+  
+  .mobile-menu{
+      display: none;
+  }
+  .logo img{
+<<<<<<< HEAD
+    
+
+=======
+>>>>>>> c6ef90b (changed logo)
+    transition: transform .7s ease-in-out;
+    box-shadow: 0 0 40px #ffffff;
+    background-color: white;
+    border-radius: 10%;
+  }   
+  .logo img:hover{
+    transform: rotate(360deg);
+  }
+
+  
+  @media only screen and (max-width: 991px) {
+      .mobile-menu{
+          display: flex;
+          margin-right: 2rem;
+      }
+      .web-menu{
+          display: none;
+      }
+      .logo{
+          font-size: 24px;
+      }
+      .logo img{
+        width:50%;
+      }
+  }
+  
+  
